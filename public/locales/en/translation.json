@@ -1,74 +1,74 @@
 {
   "header": {
-    "logo": "Delivery",
+    "logo": "DeliveFree",
     "nav": {
       "home": "Home",
       "about": "About",
       "services": "Services",
       "contact": "Contact us"
     },
-    "order": "Order now!"
+    "order": "Login"
   },
   "main": {
     "home": {
-      "title": "Order Products Faster Easier",
-      "description": "Order your favorite foods at any time and we will deliver them right to where you are.",
-      "getStarted": "Get Started"
+      "title": "Mengirimkan paket lebih mudah dan simpel",
+      "description": "Kirim paket anda dari mana saja dan kapan saja.",
+      "getStarted": "Mulai"
     },
     "about": {
-      "title": "Find Out A Little More About Us",
-      "description": "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery."
+      "title": "Penasaran tentang kami?",
+      "description": "Perusahaan kami berdedikasi untuk mengirimkan produk-produk para pelanggan dengan kualitas pelayanan yang semaksimal mungkin."
     },
     "security": {
-      "title": "Your Safety Is Important",
-      "description": "When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made."
+      "title": "Keamananmu sangatlah penting",
+      "description": "Saat produk anda sampai, kami memiliki protokol keamanan kesehatan kami sendiri, dengan begitu kamu akan dilindungi dari penyakit yang berpotensi terbawa paket yang dikirimkan."
     },
     "services": {
-      "title": "Some Services We Offer",
+      "title": "Layanan yang kami sediakan",
       "learnMore": "Learn more",
-      "servOff1": "Payment Done",
-      "descOff1": "Pay with a Visa or PayPal card and without much ado.",
-      "servOff2": "Find Your Product",
-      "descOff2": "We offer sale of products through the Internet.",
-      "servOff3": "Product Received",
-      "descOff3": "In our app you can see the delay time of your order."
+      "servOff1": "Pembayaran",
+      "descOff1": "Bayar melalui paypal, transfer bank maupun kartu debit/kredit.",
+      "servOff2": "Layanan pengiriman",
+      "descOff2": "Kami menawarkan berbagai jenis layanan pengiriman paket.",
+      "servOff3": "Tracking",
+      "descOff3": "Mengecek status pengiriman lebih mudah dengan sistem pelacakan kami."
     },
     "app": {
-      "title": "Watch Your Delivery At Any Time",
-      "description": "With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!",
+      "title": "Cek status pengirimanmu kapan saja",
+      "description": "Dengan aplikasi kami kamu bisa melihat status pengirimanmu dengan lebih mudah dan prakits",
       "storeApple": "App Store",
       "storeGoogle": "Google Play"
     },
     "contact": {
-      "title": "Contact Us From Here",
-      "description": "You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.",
+      "title": "Hubungi kami",
+      "description": "Kamu bisa menghubungi kami melalui service center, Telepon, dan Email kami",
       "info": {
         "phoneLabel": "Telephone",
         "phone": "123 - 456 - 789",
         "emailLabel": "Email",
-        "email": "delivery@email.com",
-        "addressLabel": "Location",
-        "address": "Planet Earth"
+        "email": "delivefree@email.com",
+        "addressLabel": "Lokasi",
+        "address": "Semarang"
       },
       "contactUs": "Contact Us"
     }
   },
   "footer": {
-    "logo": "Delivery",
-    "description": "Order Products Faster Easier",
-    "services": "Our Services",
-    "pricing": "Pricing",
-    "discounts": "Discounts",
-    "reportBug": "Report a Bug",
-    "terms": "Terms of Service",
-    "company": "Our Company",
+    "logo": "DeliveFree",
+    "description": "Kirim paket dengan lebih mudah",
+    "services": "Layanan Kami",
+    "pricing": "Harga",
+    "discounts": "Diskon",
+    "reportBug": "Laporkan Bug",
+    "terms": "Syarat dan Ketentuan",
+    "company": "Perusahaan Kami",
     "blog": "Blog",
-    "ourMission": "Our Mission",
-    "getTouch": "Get in Touch",
-    "community": "Community",
+    "ourMission": "Misi Kami",
+    "getTouch": "Hubungi Kami",
+    "community": "Komunitas",
     "support": "Support",
-    "questions": "Questions",
-    "help": "Customer Help",
+    "questions": "Pertanyaan",
+    "help": "Bantuan Pelanggan",
     "social": {
       "facebook": {
         "title": "facebook",
