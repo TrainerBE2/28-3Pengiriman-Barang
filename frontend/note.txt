@@ -1,0 +1,5 @@
+tambah login/register button
+hapus language dan color button
+ubah bahasa jadi indonesia
+tambah pages mengenai services
+ganti nama web
