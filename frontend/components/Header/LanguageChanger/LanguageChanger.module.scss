@@ -1,0 +1,54 @@
+.languageChanger {
+  left: 32px;
+  right: 32px;
+  top: 16px;
+  width: fit-content;
+  margin: auto;
+  color: var(--text-color);
+
+  button {
+    width: 110px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--text-color);
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  span {
+    padding-left: 0.5rem;
+  }
+
+  img {
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-right: 2px;
+    right: 1.5rem;
+    top: 6.5rem;
+    position: absolute;
+
+    button {
+      width: fit-content;
+      padding: 0;
+    }
+
+    span {
+      display: none;
+    }
+
+    img {
+      margin-right: 0;
+    }
+  }
+}

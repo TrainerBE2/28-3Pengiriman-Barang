@@ -1,0 +1,32 @@
+.about {
+  &__container {
+    gap: 2.5rem;
+  }
+
+  &__data {
+    text-align: center;
+  }
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__data {
+      text-align: initial;
+    }
+
+    &__img {
+      order: -1;
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      column-gap: 6rem;
+    }
+  }
+}

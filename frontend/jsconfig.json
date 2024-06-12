@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/pages/*": ["pages/*"],
+      "@/images/*": ["public/images/*"],
+      "@/locales/*": ["public/locales/*"],
+      "@/styles/*": ["styles/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": [".next", "node_modules", "documents"]
+}

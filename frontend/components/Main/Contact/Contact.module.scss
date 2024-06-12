@@ -1,0 +1,40 @@
+.contact {
+  &__container {
+    padding-bottom: var(--m-3);
+  }
+
+  &__content {
+    row-gap: 0.75rem;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__address,
+  &__information {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+  }
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__description {
+      text-align: initial;
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      column-gap: 6rem;
+      grid-template-columns: 3fr 1.5fr 1.25fr;
+    }
+  }
+}

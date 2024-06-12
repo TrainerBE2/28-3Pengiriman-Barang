@@ -1,0 +1,56 @@
+.app {
+  &__container {
+    gap: 2.5rem;
+  }
+
+  &__data {
+    text-align: center;
+  }
+
+  &__description {
+    margin-bottom: var(--m-1-5);
+  }
+
+  &__buttons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, max-content);
+    gap: 0.5rem;
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 360px) {
+    &__buttons {
+      grid-template-columns: max-content;
+    }
+  }
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__data {
+      text-align: initial;
+    }
+
+    &__img {
+      order: -1;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    &__buttons {
+      justify-content: initial;
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      column-gap: 6rem;
+    }
+  }
+}

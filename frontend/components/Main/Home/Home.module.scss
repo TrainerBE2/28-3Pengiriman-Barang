@@ -1,0 +1,44 @@
+.home {
+  &__container {
+    row-gap: 3rem;
+  }
+
+  &__title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--m-0-75);
+  }
+
+  &__description {
+    margin-bottom: var(--m-2);
+  }
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__img {
+      order: 1;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    &__container {
+      padding: 6rem 0 2rem;
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 1024px) {
+    &__img {
+      width: 540px;
+    }
+
+    &__description {
+      padding-right: 5rem;
+    }
+  }
+}

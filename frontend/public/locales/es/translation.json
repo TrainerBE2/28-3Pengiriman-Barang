@@ -1,0 +1,102 @@
+{
+  "header": {
+    "logo": "Delivery",
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre nosotros",
+      "services": "Servicios",
+      "contact": "Contacto"
+    },
+    "order": "¡Pide ya!"
+  },
+  "main": {
+    "home": {
+      "title": "Pide tus productos rápido y fácil",
+      "description": "Pide tus comidas favoritas a cualquier hora y te lo llevaremos justo dónde estés",
+      "getStarted": "Empecemos"
+    },
+    "about": {
+      "title": "Conoce un poco más de nosotros",
+      "description": "Somos una compañía dedicada a la distribución de productos entregándolos en tu hogar o el lugar dónde estés, con la mejor calidad de entrega."
+    },
+    "security": {
+      "title": "Tu seguridad es importante",
+      "description": "Cuando te llega tu pedido, contamos con protocolos de seguridad sanitaria, para que estés protegido de cualquier enfermedad. Mira el video de cómo se realiza la entrega."
+    },
+    "services": {
+      "title": "Algunos servicios que ofrecemos",
+      "learnMore": "Más info",
+      "servOff1": "Facilidades de Pago",
+      "descOff1": "Paga con Visa o PayPal sin ningún problema.",
+      "servOff2": "Encuentra tu producto",
+      "descOff2": "Ofrecemos venta de productos a través de Internet.",
+      "servOff3": "Seguimiento del pedido",
+      "descOff3": "En nuestra aplicación puede ver en tiempo real su pedido."
+    },
+    "app": {
+      "title": "Sigue tu pedido en tiempo real",
+      "description": "Con nuestra app puedes observar la ruta de tu pedido, desde nuestra central a dónde estés. ¡Síguelo en la app!",
+      "storeApple": "App Store",
+      "storeGoogle": "Google Play"
+    },
+    "contact": {
+      "title": "Contacta con nosotros",
+      "description": "Puedes contactarnos desde aquí, puedes escribirnos, llamarnos o visitar nuestro centro de servicio, con gusto te atenderemos.",
+      "info": {
+        "phoneLabel": "Teléfono",
+        "phone": "123 - 456 - 789",
+        "emailLabel": "Email",
+        "email": "delivery@email.com",
+        "addressLabel": "Dirección",
+        "address": "Planeta Tierra"
+      },
+      "contactUs": "Contáctanos"
+    }
+  },
+  "footer": {
+    "logo": "Delivery",
+    "description": "Pide productos fácil y rápido",
+    "services": "Nuestros Servicios",
+    "pricing": "Precios",
+    "discounts": "Descuentos",
+    "reportBug": "Informa de un error",
+    "terms": "Términos del servicio",
+    "company": "Nuestra compañía",
+    "blog": "Blog",
+    "ourMission": "Nuestra misión",
+    "getTouch": "Contáctanos",
+    "community": "Comunidad",
+    "support": "Soporte",
+    "questions": "Preguntas",
+    "help": "Ayuda",
+    "social": {
+      "facebook": {
+        "title": "facebook",
+        "link": "https://www.facebook.com/"
+      },
+      "twitter": {
+        "title": "twitter",
+        "link": "https://www.twitter.com/"
+      },
+      "instagram": {
+        "title": "instagram",
+        "link": "https://www.instagram.com/"
+      }
+    }
+  },
+  "scrollUp": {
+    "title": "¡Arriba!"
+  },
+  "languageChanger": {
+    "languageSelector": "Selector de idioma",
+    "zoneName": "España",
+    "langName": "Castellano",
+    "zoneFlag": "Idioma $t(languageChanger.langName)"
+  },
+  "colorChanger": {
+    "yellow": "¡Cambia a color amarillo!",
+    "red": "¡Cambia a color rojo!",
+    "orange": "¡Cambia a color naranja!",
+    "green": "¡Cambia a color verde!"
+  }
+}
