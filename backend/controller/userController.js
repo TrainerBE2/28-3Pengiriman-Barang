@@ -1,14 +1,35 @@
 const db = require("../utils/db");
 
 exports.getUsers = (req, res) => {
-     db.query("SELECT * FROM users WHERE role = 'USER'", (err, rows) => {
+     const sql = `
+       SELECT users.id AS user_id, users.name AS user_name, pakets.id AS paket_id, pakets.name AS paket_name, pakets.status
+       FROM users
+       LEFT JOIN pakets ON users.id = pakets.user_id
+     `;
+     db.query(sql, (err, rows) => {
           if (err) {
-               res.status(500).send(err);
-          } else {
-               res.json({
-                    users: rows,
-               });
+               console.error("Error executing query:", err);
+               res.status(500).send("Server error");
+               return;
           }
+          const users = {};
+          rows.forEach((row) => {
+               if (!users[row.user_id]) {
+                    users[row.user_id] = {
+                         id: row.user_id,
+                         name: row.user_name,
+                         pakets: [],
+                    };
+               }
+               if (row.paket_id) {
+                    users[row.user_id].pakets.push({
+                         id: row.paket_id,
+                         name: row.paket_name,
+                         status: row.status,
+                    });
+               }
+          });
+          res.json(Object.values(users));
      });
 };
 
