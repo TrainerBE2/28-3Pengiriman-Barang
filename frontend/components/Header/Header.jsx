@@ -6,6 +6,7 @@ import classNames from "classnames";
 import layout from "@/styles/Layout.module.scss";
 import style from "./Header.module.scss";
 import Link from "next/link";
+import Link from "next/link";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
