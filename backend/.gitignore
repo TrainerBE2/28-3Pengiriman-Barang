@@ -1,2 +1,2 @@
-nodemodules
-env
+# dependencies
+/node_modules
