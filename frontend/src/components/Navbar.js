@@ -40,7 +40,7 @@ const LoginButton = styled.button`
 const Navbar = () => {
   return (
     <Nav>
-      <h1>DeliverEase</h1>
+      <h1>DeliveFree</h1>
       <NavLinks>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/features">Features</NavLink>
