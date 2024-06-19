@@ -69,7 +69,7 @@ function App() {
             </div>
             <div className={`menu ${activeContent === "Setting" ? "active" : ""}`} onClick={() => setActiveContent("Setting")}>
               <SettingIcon className="icon" isActive={activeContent === "Setting"} />
-              <p>Setting</p>
+              <p>Settings</p>
             </div>
           </div>
         </aside>

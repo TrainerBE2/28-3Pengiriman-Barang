@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { EmailIcon, InstagramIcon, LocationIcon, TelephoneIcon } from "./components/icon/icon";
 
 function Help() {
   return (
@@ -33,7 +34,7 @@ function Help() {
         </div>
       </section>
       <section id="main">
-        <div className="container">
+        <div className="container mb-3">
           <div className="row">
             <div className="col">
               <h6 className="ms-1">Please contact us below if you have any problems.</h6>
@@ -48,15 +49,78 @@ function Help() {
                   <div className="mb-3">
                     <p className="card-title fs-5">Email</p>
                   </div>
-                  <div className="row">
+                  <div className="row mb-3">
                     <div className="col">
-                      <img src="image/envelope.png" />
+                      <EmailIcon />
                     </div>
                   </div>
                   <div className="container-fluid">
                     <div className="row">
                       <div className="col">
                         <h6>delivefree@email.com</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="card" style={{ width: "100%" }}>
+                <div className="card-body text-center rounded-5">
+                  <div className="mb-3">
+                    <p className="card-title fs-5">Telephone</p>
+                  </div>
+                  <div className="row mb-3">
+                    <div className="col">
+                      <TelephoneIcon />
+                    </div>
+                  </div>
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col">
+                        <h6>08123456789</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="card" style={{ width: "100%" }}>
+                <div className="card-body text-center rounded-5">
+                  <div className="mb-3">
+                    <p className="card-title fs-5">Location</p>
+                  </div>
+                  <div className="row mb-3">
+                    <div className="col">
+                      <LocationIcon />
+                    </div>
+                  </div>
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col">
+                        <h6>Semarang, Jawa Tengah</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="card" style={{ width: "100%" }}>
+                <div className="card-body text-center rounded-5">
+                  <div className="mb-3">
+                    <p className="card-title fs-5">Social Media</p>
+                  </div>
+                  <div className="row mb-3">
+                    <div className="col">
+                      <InstagramIcon />
+                    </div>
+                  </div>
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col">
+                        <h6>@delivefree.id</h6>
                       </div>
                     </div>
                   </div>

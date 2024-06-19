@@ -72,10 +72,21 @@
   width: 100%;
 }
 
+.help {
+  background-color: #dde0f7;
+  height: 110vh;
+}
+
+.setting {
+  background-color: #dde0f7;
+  height: 110vh;
+}
+
 main {
   background-color: #dde0f7;
   width: 100%;
 }
+
 /* Akhir Content */
 
 /* Tabel */
