@@ -12,11 +12,7 @@ function Services() {
 
   return (
     <section
-      className={classNames(
-        style.services,
-        layout.section,
-        layout.container
-      )}
+      className={classNames(style.services, layout.section, layout.container)}
       id="services"
     >
       <h2 className={layout.section__title}>{t("main.services.title")}</h2>
@@ -36,9 +32,7 @@ function Services() {
             {t("main.services.descOff1")}
           </p>
           <Link href="/Payment">
-            <a
-              className={classNames(layout.button, layout["button--link"])}
-            >
+            <a className={classNames(layout.button, layout["button--link"])}>
               {t("main.services.learnMore")}
             </a>
           </Link>
@@ -59,14 +53,12 @@ function Services() {
             {t("main.services.descOff2")}
           </p>
           <Link href="/services">
-            <a
-              className={classNames(layout.button, layout["button--link"])}
-            >
+            <a className={classNames(layout.button, layout["button--link"])}>
               {t("main.services.learnMore")}
             </a>
           </Link>
         </div>
-        
+
         <div className={style.services__data}>
           <h3 className={style.services__subtitle}>
             {t("main.services.servOff3")}
@@ -82,9 +74,7 @@ function Services() {
             {t("main.services.descOff3")}
           </p>
           <Link href="/tracking">
-            <a
-              className={classNames(layout.button, layout["button--link"])}
-            >
+            <a className={classNames(layout.button, layout["button--link"])}>
               {t("main.services.learnMore")}
             </a>
           </Link>
