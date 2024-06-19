@@ -7,6 +7,7 @@ import useWindowDimensions from "@/hooks/useWindowDimensions";
 import classNames from "classnames";
 import layout from "@/styles/Layout.module.scss";
 import style from "./Header.module.scss";
+import Link from "next/link";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -115,8 +116,9 @@ function Header() {
         <div className={style.nav__toggle} onClick={() => setToggle(!toggle)}>
           <i className="bx bx-grid-alt" />
         </div>
-        <a
-          href="#"
+        <Link href="/login">
+        <a 
+          
           className={classNames([layout.button], {
             [layout.hidden]: width < 960,
           })}
@@ -124,6 +126,8 @@ function Header() {
         >
           {t("header.order")}
         </a>
+        </Link>
+        
       </nav>
     </header>
   );

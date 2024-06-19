@@ -1,0 +1,113 @@
+$bg-color: #e6b800;
+$primary-color: #21211e;
+$input-bg: #fff;
+$input-border: #ccc;
+$input-focus: #5c6bc0;
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $bg-color;
+}
+
+.formBox {
+  background-color: $input-bg;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+
+  &.login,
+  &.register {
+    display: none;
+  }
+
+  &.active {
+    display: block;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .inputBox {
+    position: relative;
+    margin-bottom: 20px;
+
+    input,
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid $input-border;
+      border-radius: 4px;
+      background-color: $input-bg;
+      transition: border-color 0.3s;
+
+      &:focus {
+        border-color: $input-focus;
+        outline: none;
+      }
+    }
+
+    .passwordIcon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+
+  .rememberForgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: darken($primary-color, 10%);
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: $primary-color;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  .registerLink {
+    text-align: center;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
