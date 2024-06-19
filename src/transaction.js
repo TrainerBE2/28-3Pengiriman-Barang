@@ -27,7 +27,7 @@ function Transaction() {
         <div className="container mb-3">
           <div className="row">
             <div className="col">
-              <h4>Transaction</h4>
+              <h4 className="ms-1">Transaction</h4>
             </div>
           </div>
         </div>

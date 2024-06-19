@@ -27,7 +27,7 @@ function Order() {
         <div className="container mb-3">
           <div className="row">
             <div className="col">
-              <h4>Order</h4>
+              <h4 className="ms-1">Order</h4>
             </div>
           </div>
         </div>

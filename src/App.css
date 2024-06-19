@@ -52,6 +52,7 @@
   background-color: #dde0f7;
   width: 100%;
 }
+
 .shipment {
   background-color: #dde0f7;
   width: 100%;
@@ -62,12 +63,17 @@
   width: 100%;
 }
 
+.customer {
+  background-color: #dde0f7;
+  width: 100%;
+}
 .transaction {
   background-color: #dde0f7;
   width: 100%;
 }
 
 main {
+  background-color: #dde0f7;
   width: 100%;
 }
 /* Akhir Content */

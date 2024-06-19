@@ -27,7 +27,7 @@ function Shipment() {
         <div className="container mb-3">
           <div className="row">
             <div className="col">
-              <h4>Shipment</h4>
+              <h4 className="ms-1">Shipment</h4>
             </div>
           </div>
         </div>
