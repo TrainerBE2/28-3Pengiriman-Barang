@@ -39,8 +39,9 @@ function App() {
       <section className="d-flex">
         <aside className="sidebar">
           <img src="image/Logo.svg" className="mt-5" />
-          <p className="mt-5 ms-4 align-self-start">MENU</p>
+
           <div className="menu-wrapper">
+            <p className="mt-5 ms-3  align-self-start">MENU</p>
             <div className={`menu ${activeContent === "Dashboard" ? "active" : ""}`} onClick={() => setActiveContent("Dashboard")}>
               <DashboardIcon className="icon" isActive={activeContent === "Dashboard"} />
               <p>Dashboard</p>
@@ -61,9 +62,7 @@ function App() {
               <TransactionIcon className="icon" isActive={activeContent === "Transaction"} />
               <p>Transaction</p>
             </div>
-          </div>
-          <p className="mt-5 ms-4 align-self-start">TOOLS</p>
-          <div className="menu-wrapper">
+            <p className="mt-5 ms-3 align-self-start">TOOLS</p>
             <div className={`menu ${activeContent === "Help" ? "active" : ""}`} onClick={() => setActiveContent("Help")}>
               <HelpIcon className="icon" isActive={activeContent === "Help"} />
               <p>Help & Support</p>
