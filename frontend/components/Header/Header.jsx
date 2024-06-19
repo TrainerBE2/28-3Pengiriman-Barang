@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import ThemeChanger from "./ThemeChanger/ThemeChanger";
-import LanguageChanger from "./LanguageChanger/LanguageChanger";
-import ColorChanger from "./ColorChanger/ColorChanger";
 import useWindowDimensions from "@/hooks/useWindowDimensions";
 import classNames from "classnames";
 import layout from "@/styles/Layout.module.scss";
 import style from "./Header.module.scss";
+import Link from "next/link";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -14,40 +13,57 @@ function Header() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    window.addEventListener("scroll", (e) => {
+    const handleScroll = () => {
       const header = document.getElementById("header");
-      window.scrollY >= 80
-        ? header.classList.add(style["scroll-header"])
-        : header.classList.remove(style["scroll-header"]);
-    });
+      if (header) {
+        if (window.scrollY >= 80) {
+          header.classList.add(style["scroll-header"]);
+        } else {
+          header.classList.remove(style["scroll-header"]);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   useEffect(() => {
-    window.addEventListener("scroll", (e) => {
-      const navMenu = classNames(style.nav__menu);
+    const handleScroll = () => {
+      const navMenu = document.querySelector(`.${style.nav__menu}`);
       if (navMenu) {
         const sectionList = document.querySelectorAll("section[id]");
         sectionList.forEach((section) => {
           const sectionId = section.getAttribute("id");
-          const querySelector = `.${navMenu} a[href*='${sectionId}']`;
+          const querySelector = `.${style.nav__menu} a[href*='${sectionId}']`;
           const menuItem = document.querySelector(querySelector);
           if (menuItem) {
             const scrollY = window.scrollY;
             const sectionTop = section.offsetTop - 50;
-            const activeLinkClass = classNames(style["nav__link--active"]);
             if (
               scrollY > sectionTop &&
               scrollY <= sectionTop + section.offsetHeight
             ) {
-              menuItem.classList.add(activeLinkClass);
+              menuItem.classList.add(style["nav__link--active"]);
             } else {
-              menuItem.classList.remove(activeLinkClass);
+              menuItem.classList.remove(style["nav__link--active"]);
             }
           }
         });
       }
-    });
-  });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const clickHandler = (e) => {
     if (e.target.tagName === "A") {
@@ -72,10 +88,7 @@ function Header() {
               <a
                 href="#home"
                 title={t("header.nav.home")}
-                className={classNames(
-                  [style.nav__link],
-                  style["nav__link--active"]
-                )}
+                className={style.nav__link}
               >
                 {t("header.nav.home")}
               </a>
@@ -108,22 +121,21 @@ function Header() {
               </a>
             </li>
             <ThemeChanger />
-            {/* <ColorChanger />
-            <LanguageChanger /> */}
           </ul>
         </div>
         <div className={style.nav__toggle} onClick={() => setToggle(!toggle)}>
           <i className="bx bx-grid-alt" />
         </div>
-        <a
-          href="#"
-          className={classNames([layout.button], {
-            [layout.hidden]: width < 960,
-          })}
-          title={t("header.order")}
-        >
-          {t("header.order")}
-        </a>
+        <Link href="/login">
+          <a
+            className={classNames([layout.button], {
+              [layout.hidden]: width < 960,
+            })}
+            title={t("header.order")}
+          >
+            {t("header.order")}
+          </a>
+        </Link>
       </nav>
     </header>
   );
