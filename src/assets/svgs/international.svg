@@ -1,14 +1,0 @@
-<?xml version="1.0" ?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 73.701 73.701" enable-background="new 0 0 73.701 73.701" id="圖層_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g>
-<path d="   M1.851,36.851c0-9.935,4.146-18.895,10.793-25.266c6.287,6.025,14.811,9.734,24.207,9.734c9.395,0,17.919-3.709,24.206-9.734   c6.647,6.371,10.794,15.331,10.794,25.266s-4.146,18.895-10.794,25.266c-6.287-6.025-14.812-9.734-24.206-9.734   c-9.396,0-17.92,3.709-24.207,9.734C5.996,55.745,1.851,46.785,1.851,36.851z" fill="#FFFFFF" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-<path d="   M61.057,62.116c-6.287,6.025-14.812,9.734-24.206,9.734c-9.396,0-17.92-3.709-24.207-9.734c6.287-6.025,14.811-9.734,24.207-9.734   C46.245,52.382,54.77,56.091,61.057,62.116z" fill="#FFFFFF" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-<path d="   M12.644,11.585c6.287-6.025,14.811-9.734,24.207-9.734c9.395,0,17.919,3.709,24.206,9.734c-6.287,6.025-14.812,9.734-24.206,9.734   C27.454,21.319,18.931,17.61,12.644,11.585z" fill="#FFFFFF" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-<ellipse cx="36.85" cy="36.851" fill="none" rx="15.611" ry="35" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-<path d="   M36.851,1.851c0,0-0.919,69.825,0,69.825" fill="none" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-<line fill="none" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" x1="71.835" x2="1.865" y1="36.851" y2="36.851"/>
-<path d="   M32.474,39.917L12.62,45.794v-6.713L31.471,28.28l-1.106-12.839c-0.326-3.802,2.671-7.067,6.486-7.067s6.813,3.266,6.485,7.067   L42.229,28.28l18.85,10.801v6.713l-19.852-5.877l-1.441,16.732c-0.002,0.02-0.008,0.037-0.011,0.057l9.19,5.266v3.355   l-12.115-3.586l-12.115,3.586v-3.355l9.189-5.266c-0.002-0.02-0.008-0.037-0.01-0.057L32.474,39.917z" fill="#FFFFFF" stroke="#040000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
-</g>
-</svg>
