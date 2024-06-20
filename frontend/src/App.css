@@ -63,9 +63,9 @@
       -ms-border-radius: 8px;
       -o-border-radius: 8px;
       &:hover {
-        background-color: #003ab8;
+        background-color: #dde0f7;
 
-        color: white;
+        color: black;
       }
 
       p {
@@ -73,11 +73,16 @@
       }
     }
     .menu.active {
-      background-color: #003ab8;
+      background-color: #e6b800;
       color: white;
+      &:hover {
+        .icon path {
+          fill: white;
+        }
+      }
     }
     .menu:hover .icon path {
-      fill: white;
+      fill: black;
     }
   }
 }
@@ -86,41 +91,41 @@
 
 /* Content */
 .dashboard {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 
 .shipment {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 
 .order {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 
 .customer {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 .transaction {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 
 .help {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   height: 110vh;
 }
 
-.setting {
-  background-color: #dde0f7;
+.settings {
+  background-color: #ecedf4;
   height: 110vh;
 }
 
 main {
-  background-color: #dde0f7;
+  background-color: #ecedf4;
   width: 100%;
 }
 
