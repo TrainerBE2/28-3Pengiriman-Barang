@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "seed": "node ./utils/seeder.js",
+    "userSeed": "node ./utils/userSeeder.js",
+    "paketSeed": "node ./utils/paketSeeder.js",
+    "paymentSeed": "node ./utils/paymentSeeder.js",
     "resetDB": "node ./utils/resetDB.js",
-    "resetTbl": "node ./utils/resetTable.js"
+    "resetTable": "node ./utils/resetTable.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,6 +16,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "~1.9.1",
     "mysql": "^2.18.1"
   },

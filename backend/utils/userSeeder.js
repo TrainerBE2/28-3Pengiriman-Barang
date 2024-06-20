@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 
 const users = [];
 (async () => {
-     for (let i = 0; i < 20; i++) {
+     for (let i = 0; i < 5; i++) {
           const hashedPassword = await bcrypt.hash("123", 10);
           users.push({
                name: faker.person.fullName(),
