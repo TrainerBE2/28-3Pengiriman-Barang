@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Contact from "./pages/Contact";
 import Services from "./components/Services";
 import AdminPage from "./components/adminPage";
+import Loginpage from './pages/LoginRegister';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/adminPage" element={<AdminPage />} />
+        <Route path="/login" element={<Loginpage />} />
       </Routes>
     </Router>
   );
