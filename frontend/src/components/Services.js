@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import sameDay from '../assets/svgs/same_day.svg';
-import international from '../assets/svgs/international.svg';
-import express from '../assets/svgs/express.svg';
+import React from "react";
+import styled from "styled-components";
+import sameDay from "../assets/svgs/same_day.svg";
+import international from "../assets/svgs/international.svg";
+import express from "../assets/svgs/express.svg";
 
 const ServicesContainer = styled.section`
   padding: 60px 20px;

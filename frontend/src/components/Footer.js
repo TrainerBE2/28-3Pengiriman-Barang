@@ -1,6 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import React from "react";
+import styled from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const FooterContainer = styled.footer`
   background-color: #333;
@@ -50,16 +52,14 @@ const Footer = () => {
     <FooterContainer>
       <FooterSection>
         <SectionTitle>About Us</SectionTitle>
-        <p>
-          DeliveFree is committed to providing fast and reliable delivery services across the globe. Our mission is to ensure your packages are delivered on time, every time.
-        </p>
+        <p>DeliveFree is committed to providing fast and reliable delivery services across the globe. Our mission is to ensure your packages are delivered on time, every time.</p>
       </FooterSection>
       <FooterSection>
         <SectionTitle>Contact Us</SectionTitle>
         <ContactList>
-          <ContactItem>Email: contact@delivefree.com</ContactItem>
-          <ContactItem>Phone: +1 234 567 890</ContactItem>
-          <ContactItem>Address: 123 Delivery Lane, Speedy City, Fastland</ContactItem>
+          <ContactItem>Email: delivefree@email.com</ContactItem>
+          <ContactItem>Phone: +62 812 345 6789</ContactItem>
+          <ContactItem>Address: Semarang, Jawa Tengah</ContactItem>
         </ContactList>
       </FooterSection>
       <FooterSection>

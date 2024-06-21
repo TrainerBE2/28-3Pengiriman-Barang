@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import fastDelivery from '../assets/svgs/fast-delivery.svg';
-import tracking from '../assets/svgs/tracking.svg';
-import support from '../assets/svgs/support.svg';
+import React from "react";
+import styled from "styled-components";
+import fastDelivery from "../assets/svgs/fast-delivery.svg";
+import tracking from "../assets/svgs/tracking.svg";
+import support from "../assets/svgs/support.svg";
 
 const FeaturesContainer = styled.section`
   padding: 60px 20px;

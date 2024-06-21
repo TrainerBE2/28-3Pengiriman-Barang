@@ -1,6 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+
+import { Link } from "react-router-dom";
+import { LogoIcon } from "./Icons/icon";
 
 const Nav = styled.nav`
   height: 60px;
@@ -26,7 +28,7 @@ const NavLink = styled(Link)`
 const LoginButton = styled.button`
   padding: 8px 16px;
   font-size: 16px;
-  color: #333;
+  color: #fff;
   background: orange;
   border: none;
   cursor: pointer;
@@ -40,7 +42,7 @@ const LoginButton = styled.button`
 const Navbar = () => {
   return (
     <Nav>
-      <h1>DeliveFree</h1>
+      <LogoIcon />
       <NavLinks>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/features">Features</NavLink>

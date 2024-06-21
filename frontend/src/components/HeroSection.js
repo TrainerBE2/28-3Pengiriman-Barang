@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import heroImage from '../assets/hero_image.jpg'; // Ensure you have an image named 'hero_image.jpg' in the assets folder
+import React from "react";
+import styled from "styled-components";
+import heroImage from "../assets/hero_image.jpg"; // Ensure you have an image named 'hero_image.jpg' in the assets folder
 
 const Hero = styled.section`
   height: 100vh;
